@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <title>Edson Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <img src="logo.png" alt="minha logo">
+        <!-- <span class="header__logo-sub">Edson Santos</span> -->
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#about" class="header__link">Sobre</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#projects" class="header__link"> Projetos </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#contact" class="header__link"> Contato </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <i class="bi bi-list"></i>
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#about"> About </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- fechamento do cabeçalho -->
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Ola, eu sou Edson Santos</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          Desenvolvedor web focado em resultados, especializado na criação e gestão de sites e aplicativos que
+          impulsionam o sucesso do produto como um todo.
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Projetos</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="https://linkedin.com/in/edson-santos-03b746346" class="home-hero__social-icon-link" rel="noreferrer"
+          target="_blank">
+          <i class="bi bi-linkedin"></i>
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://www.instagram.com/edso.nrios/" class="home-hero__social-icon-link" rel="noreferrer" target="_blank">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+      <div class="home-hero__social">
+        <a href="https://github.com/EdsonADS21" class="home-hero__social-icon-link" rel="noreferrer" target="_blank">
+          <i class="bi bi-github"></i>
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <!-- fechamento do home -->
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Sobre mim</span>
+        <span class="heading-sec__sub">
+          Aqui você encontrará mais informações sobre mim, o que eu faço e minhas
+          habilidades atuais principalmente em termos de programação e tecnologia.
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Venha me conhecer:</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              Sou um <strong>Desenvolvedor Web</strong> Focado em Full-Stack, construindo e gerenciando sites e
+              aplicativos
+              Web que levam ao sucesso do produto geral. Confira alguns dos meus trabalhos na seção Projetos.
+            </p>
+            <p class="about__content-details-para">
+              Estou aberto a oportunidades de <strong>trabalho</strong> onde eu possa contribuir, aprender e crescer. Se
+              você tiver uma
+              boa oportunidade que corresponda às minhas habilidades e experiência, não hesite em entrar em
+              <strong>contato
+                comigo.</strong>
+            </p>
+          </div>
+          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contato</a>
+        </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">Minhas habilidades:</h3>
+          <div class="skills">
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">Wordpress</div>
+            <div class="skills__skill">GIT</div>
+            <div class="skills__skill">Github</div>
+            <div class="skills__skill">Canva</div>
+            <div class="skills__skill">Photoshop</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fechamento sobre mim-->
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projetos</span>
+        <span class="heading-sec__sub">
+          Aqui você encontrará alguns dos projetos pessoais e de clientes que criei, cada projeto contendo seu próprio
+          estudo de caso
+        </span>
+      </h2>
+    <div class="projects__content">
+
+  <!-- PROJETO 1 -->
+  <div class="projects__row">
+    <div class="projects__row-img-cont">
+      <img src="Design sem nome.png" alt="Software Screenshot" class="projects__row-img" loading="lazy">
+    </div>
+
+    <div class="projects__row-content">
+      <h3 class="projects__row-content-title">Meu Portifolio</h3>
+      <p class="projects__row-content-desc">
+        Meu projeto inicial é uma forma simples e elegante de expor meu trabalho,
+        permitindo que o cliente visualize tudo com clareza e facilidade.
+      </p>
+      <a class='btn btn--med btn--theme dynamicBgClr' href='#' target='_blank'>Veja Aqui</a>
+    </div>
+  </div>
+
+  <!-- PROJETO 2 -->
+  <div class="projects__row">
+    <div class="projects__row-img-cont">
+      <img src="Bella Mares.png" alt="Bella Mares" class="projects__row-img" loading="lazy">
+    </div>
+
+    <div class="projects__row-content">
+      <h3 class="projects__row-content-title">Bella Mares</h3>
+      <p class="projects__row-content-desc">
+        Desenvolvi um site moderno e intuitivo para o apartamento Bella Mares, focado em destacar a localização privilegiada, comodidades e facilidade de contato.
+      </p>
+      <a class='btn btn--med btn--theme dynamicBgClr' href='www.bellamares.lovable.app' target='_blank'>Veja Aqui</a>
+    </div>
+  </div>
+
+</div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- fechamento projetos -->
+  <section id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contato</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          Sinta-se à vontade para entrar em contato comigo enviando o 
+          formulário abaixo e entrarei em contato com você o mais breve possível.
+        </span>
+      </h2>
+      <div class="contact__form-container">
+        <form class='contact__form' onsubmit="sendToWhatsApp(event)">
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="name">Nome</label>
+                <input required placeholder="Digite seu nome" type="text" class="contact__form-input" name="name" id="name" />
+            </div>
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="email">Email</label>
+                <input required placeholder="Digite seu email" type="email" class="contact__form-input" name="email" id="email" />
+            </div>
+            <div class="contact__form-field">
+                <label class="contact__form-label" for="message">Mensagem</label>
+                <textarea required cols="30" rows="5" class="contact__form-input" placeholder="Digite sua mensagem" name="message" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+                Enviar
+            </button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- fechamento contatos -->
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a  target="_blank" rel="noreferrer" href="#">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a target="_blank" rel="noreferrer" href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h2 class="heading heading-sm text-lt">Edson Santos</h2>
+          <p class="main-footer__short-desc">
+            Desenvolvedor web focado em resultados, 
+            especializado na criação e gestão de sites e aplicativos que impulsionam o sucesso do produto como um todo.
+          </p>
+        </div>
+      </div>
+
+      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+      <div class="main-footer__lower">
+        &copy; Copyright
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        . Made by
+        <a rel="noreferrer" target="_blank" href="#">Edson Santos</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
